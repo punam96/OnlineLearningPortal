@@ -1,0 +1,217 @@
+﻿*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+     background-color: #F6F8F8;
+}
+header ul
+{
+    
+    overflow:hidden;
+    background-color:white;
+    position:fixed;
+    width:100%;
+    border-bottom:1px solid #F4F4F4;
+    z-index: 100;
+}
+
+header ul li
+{
+    list-style-type:none;
+    float: right;
+    margin-right:50px;
+    
+}
+
+header ul li #loginbtn
+{
+    border:none;
+    text-align: center;
+    padding:5px 18px;
+    background-color: #11A15D;
+    color:white;
+    margin-top:10px;
+    cursor:pointer;
+    border-radius: 5px;
+    font-weight:600;
+}
+
+header ul li #loginbtn:hover
+{
+    background-color:#0d7039;
+}
+header ul li a
+{
+    display:block;
+    text-align: center;
+    padding:15px 18px;
+    text-decoration: none;
+    color:#b4c1c1;
+    font-weight:600;
+}
+
+header ul li a:hover
+{
+    color: #11A15D;
+}
+
+.coursetitle
+{
+   
+   padding: 100px 60px 60px 60px;
+   background-color: white;
+   border-bottom:1px solid #F4F4F4;
+}
+
+.coursetitle .coursepic
+{
+    height:255px;
+    width:460px;
+    float: left;
+}
+
+.coursetext
+{
+   position:relative;
+   left: 40px;
+   
+}
+
+.coursetext h1
+{
+    color:#4C4C4C;
+    font-weight:500;
+}
+.coursetext p
+{
+    color:#8B8A8B;
+}
+
+.coursetext h2
+{
+    color: #51A66B;
+    margin-top:50px;
+}
+
+.coursetext #Enrollbtn
+{
+    background-color:#15904D;
+    color:white;
+    border:none;
+    padding: 10px 20px;
+    cursor:pointer;
+}
+
+/*.courseoptions
+{
+    
+    width: 100%;
+     background-color: white;
+}
+
+.courseoptions ul
+{
+    width:100%;
+    overflow:hidden;
+    background-color: white;
+    padding-left: 35px;
+    position:sticky;
+    top:160px;
+}
+.courseoptions ul li
+{
+    float:left;
+    list-style-type: none;
+    
+}
+
+.courseoptions ul li .overviewbtn, .courseoptions ul li .syllabusbtn, .courseoptions ul li .discussionbtn, .courseoptions ul li .notesbtn
+{
+    /*color: #15904D;*/
+/*
+    color: black;
+    background-color:white;
+    width: 100%;
+    border:none;
+    padding: 10px;
+    cursor: pointer;
+    padding: 20px 25px;
+}
+
+ .overviewbtn
+{
+  
+}
+ */
+
+#Menu1
+{
+    width: 100%;
+    background-color:white;
+    padding-left:30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+} 
+
+.menucolor
+{
+    color: black;
+}
+
+li[role="menuitem"] a.selected
+{
+    border-bottom: 2px solid #11A15D;
+}
+
+
+.coursedetails .view1
+{
+    margin: 30px 60px;
+    background-color: white;
+    color:#535559;
+}
+
+.coursedetails .view1 p
+{
+    line-height: 2;
+    padding:20px;
+}
+
+.coursedetails .view1 a
+{
+    width: 100%;
+    line-height:3;
+    margin: 20px;
+    text-decoration:none;
+    color: #8B8A8B;
+}
+
+.coursedetails .view1 a:hover 
+{
+     color: #11A05C;
+}
+
+#certificatebtn
+{
+    background-color: #15904D;
+    color: white;
+    font-weight:bold;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    position:absolute;
+    right: 90px;
+    border-radius: 5px;
+}
+
+
+
+#certificate
+{
+    color: #F1494F;
+    font-size: 25px;
+}

@@ -1,0 +1,126 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.loginBox, #signupBox, .profilebox
+{
+    width: 450px;
+    height: 540px;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    -webkit-box-shadow:0px 00px 20px #888888;
+    -moz-box-shadow:0px 0px 20px #888888;
+    box-shadow:0px 0px 20px #888888;
+}
+
+.loginBox
+{
+    height:540px;
+}
+
+#signupBox
+{
+    
+    height: 500px;
+}
+
+.profilebox
+{
+   
+    height: 400px;
+}
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#txtboxemail, #txtboxpass, #txtboxname, #txtboxphone
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #c1c1c1;
+    margin-top: 10px;
+    outline:none;
+    height: 40px;
+    color: #000000;
+    font-size: 15px;
+}
+
+#txtboxemail:focus, #txtboxpass:focus, #txtboxname:focus, #txtboxphone:focus
+{
+    border-bottom: 2px solid #4285F4;
+}
+
+
+#loginbtn, #signupbtn ,#btnsave
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    background-color: #15904d;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#loginbtn:hover, #signupbtn:hover, #btnsave:hover
+{
+    cursor: pointer;
+    color:#fff;
+    background-color: #0fbc4e;
+}
+
+#HyperLink1, #HyperLink2
+{
+    color: #15904d;
+}
+
+#HyperLink1:hover, #HyperLink2:hover
+{
+    cursor: pointer;
+    color:#fff;
+    background-color: #15aa4d;
+}
+
+h4
+{
+    width: 100%;
+    text-align: center;
+    color:#968b8b;
+}
+
+#logingoogle
+{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background-color: #cf4332;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#logingoogle:hover
+{
+    cursor:pointer;
+    background-color: #f24330;
+
+}
+

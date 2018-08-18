@@ -1,0 +1,70 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    background-color: #222222;
+
+}
+
+video
+{
+    background-color:black;
+    /*-webkit-box-shadow:0px 00px 10px #888888;
+    -moz-box-shadow:0px 0px 10px #888888;
+    box-shadow:0px 0px 10px #888888;*/
+}
+
+.menu 
+{
+    position: absolute;
+    top:0;
+    left:950px;
+    background-color:white;
+    height: 100vh;
+    width: 330px;
+}
+
+#syllabusbtn, #discussionbtn, #taskbtn
+{
+    border:none;
+    padding: 10px 20px;
+    color: #11A15D;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    font-size:medium;
+
+}
+
+
+
+
+.view1
+{
+    position:absolute;
+    top:35px;
+    left: 950px;
+    margin-left: 20px;
+}
+
+#btn1, #btn2, #btn3, #btn4
+{
+    background-color: white;
+    border: none;
+    display: inline-block;
+    color: #8B8A8B;
+    margin-left: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover
+{
+    /*color: #11A05C;*/
+    color: black;
+}
+
+.titlbtn.selected
+{
+    color:#11A15D;
+}

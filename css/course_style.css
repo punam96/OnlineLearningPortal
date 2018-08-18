@@ -1,0 +1,157 @@
+﻿*
+{
+    margin:0;
+    padding:0;
+}
+
+header ul
+{
+    list-style-type:none;
+    overflow:hidden;
+    background-color:white;
+    position:fixed;
+    width:100%;
+    border-bottom:1px solid #F4F4F4;
+    z-index:100;
+}
+
+header ul li
+{
+    float: right;
+    margin-right:50px;
+    
+}
+
+header ul li #loginbtn
+{
+    border:none;
+    text-align: center;
+    padding:5px 18px;
+    background-color: #11A15D;
+    color:white;
+    margin-top:10px;
+    cursor:pointer;
+    border-radius: 5px;
+    font-weight:600;
+}
+
+header ul li #loginbtn:hover
+{
+    background-color:#0d7039;
+}
+header ul li a
+{
+    display:block;
+    text-align: center;
+    padding:15px 18px;
+    text-decoration: none;
+    color:#b4c1c1;
+    font-weight:600;
+}
+
+header ul li a:hover
+{
+    color: #11A15D;
+}
+
+.appad  
+{
+    background: url("../images/applejslco.png")
+    no-repeat center center;
+    background-size:cover;
+}
+
+.appad .rightyy
+{
+    color: white;
+    padding-top:100px;
+    padding-left:750px;
+}
+
+.appad .rightyy p
+{
+    font-size:30px;
+}
+
+.appad .rightyy h1
+{
+    font-size:20px;
+    font-weight:300;
+}
+
+#ImageButton1, #ImageButton2 
+{
+    height: 40px;
+    width: 137px;
+    margin-top:92px;
+}
+
+
+#ImageButton2
+{
+    margin-left:97px;
+}
+
+.whyus
+{
+    
+    background-color:#2b95fb;
+    color:white;
+    text-align:center;
+}
+
+.whyus h1
+{
+    font-weight: 400;
+    padding-top:60px;
+}
+
+.whyus h2
+{
+    padding-bottom:30px;
+}
+
+.courses h1
+{
+    width: 100%;
+    text-align:center;
+    padding-top:80px;
+    padding-bottom: 40px;
+    color:#548DD4;
+    font-weight:500;
+    font-size: 40px;
+}
+
+.courselist
+{
+    width: 100%;
+    height: 300px;
+}
+
+.courselist #webcrsebtn, .courselist #reactntivebtn
+{
+    position:absolute;
+    top: 730px;
+    height:250px;
+    width:250px;
+    -webkit-box-shadow:0px 00px 4px #888888;
+    -moz-box-shadow:0px 0px 4px #888888;
+    box-shadow:0px 0px 4px #888888;
+    border-radius: 5px;
+}
+.courselist #webcrsebtn
+{
+    
+    left: 105px;
+}
+
+.courselist #reactntivebtn
+{
+    left:300px;
+    margin-left:90px;
+}
+
+.courselist #webcrsebtn:hover,.courselist #reactntivebtn:hover
+{
+    top:727px;
+}
